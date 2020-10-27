@@ -2,6 +2,7 @@
 
 using namespace std ;
 
+// O(n) || O(1)
 bool isMonotonic(vector<int> array)
     {
     bool is_non_decreasing = true;
