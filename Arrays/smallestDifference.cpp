@@ -2,6 +2,7 @@
 
 using namespace std ;
 
+// O(nlogn + mlogm) || O(1)  -> ignoring the space for sorting
 vector< int > SmallestDifference( vector< int > &a , vector< int > &b)
 {
     vector< int > result ;
