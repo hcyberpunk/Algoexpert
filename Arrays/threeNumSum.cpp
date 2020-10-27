@@ -7,7 +7,7 @@ using namespace std ;
 //O(n^2) || O(1) -> ignoring the space for sorting
 vector< int > ThreeSum ( vector< int > &nums , int targetSum)
 {
-
+    vector< int > result;
     sort(nums.begin(), nums.end());
     for ( int i = 0; i < nums.size(); i ++)
     {
