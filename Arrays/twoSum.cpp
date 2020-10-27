@@ -50,11 +50,11 @@ for ( int i = 0 ; i < nums.size(); i++)
 }
 
 
-// O(nlogn) || O(1)
+// O(nlogn) || O(1)  ( ignoring the space required for sorting )
 vector< int > TwoSum2 ( vector< int > &nums , int targetSum)
 {
     vector< int > result;
-    sort (nums.begin() , nums.end()) ;
+    sort (nums.begin() , nums.end()) ;  
     int left_P ; int right_P;
     
     while ( left_P < right_P)
